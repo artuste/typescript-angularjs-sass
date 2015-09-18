@@ -35,7 +35,7 @@ This is an example application based on AngularJS written in TypeScript.
 npm install gulp jspm typescript tsd -g
 ```
 ```
-git cone https://github.com/b091/ts-skeleton.git
+git clone https://github.com/artuste/typescript-angularjs-sass.git
 ```
 ```
 npm install
