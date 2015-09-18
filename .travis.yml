@@ -20,5 +20,3 @@ cache:
   - ./node_modules
   - ./vendor
   - $HOME/.nvm
-
-sudo: false
