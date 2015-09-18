@@ -47,4 +47,4 @@ gulp.task('build', ['build:dist', 'build:docs']);
 gulp.task('icons', require('./tasks/icons')(gulp, config));
 gulp.task('css', ['icons'], require('./tasks/css')(gulp, sass, config));
 
-gulp.task('default', require('./tasks/default')())
+gulp.task('default', require('./tasks/default')());

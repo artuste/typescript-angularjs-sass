@@ -15,10 +15,24 @@ export class AuthenticationService {
         return deferred.promise;
     };
 
-    logout = () => {
-        // This is only a promise :)
+    login = (form) => {
+        var mockResponse = {
+            user: form.username,
+            token: 'Token-' + Math.floor(Math.random()*1000000)
+        };
         var deferred = this.$q.defer();
-        deferred.resolve(this.WebStorageService.remove());
+
+        deferred.resolve(mockResponse);
+
+        return deferred.promise;
+    };
+
+    logout = () => {
+        var action = this.WebStorageService.remove();
+        var deferred = this.$q.defer();
+
+        deferred.resolve(action);
+
         return deferred.promise;
     };
 }

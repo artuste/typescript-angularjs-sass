@@ -16,13 +16,15 @@ export class StyleSwitcherComponent implements ng.IDirective {
             ]
         };
 
+        var rootScope = this.$rootScope;
+
         scope.stylesSwitcher = function () {
             if (scope.switchBtnLabel === scope.styleConfig.labels[0]) {
                 scope.switchBtnLabel = scope.styleConfig.labels[1];
-                this.$rootScope.clientStyleEnable = true;
+                rootScope.clientStyleEnable = true;
             } else {
                 scope.switchBtnLabel = scope.styleConfig.labels[0];
-                this.$rootScope.clientStyleEnable = false;
+                rootScope.clientStyleEnable = false;
             }
         };
 

@@ -6,7 +6,7 @@ export class UserInfo{
     constructor() {}
 
     set = (userInfo) => {
-        this.model = userInfo.data;
+        this.model = userInfo;
     };
 
     get = () => {

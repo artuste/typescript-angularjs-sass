@@ -13,7 +13,6 @@
     "CONTEXT_MENU": {
       "LABEL_NAME": "幾點想法",
       "OPTIONS": {
-        "CHANGE_PASSWORD": "入時六"
       }
     }
   },
@@ -34,21 +33,6 @@
     },
     "LOGOUT": {
       "TITLE": "幾點想"
-    },
-    "BOOKS": {
-      "TITLE": "幾點想法",
-      "LIST": "百六 ",
-      "PLAYER": "幾點想法"
-    },
-    "VOUCHER": {
-      "POPUP": {
-        "TITLE": "幾點想法",
-        "DESC": "百六百幾點想法 六百六百六",
-        "PLACEHOLDER": "點想法"
-      },
-      "MESSAGES": {
-        "UNLOCK": "百六百幾點想法 六百六百六"
-      }
     }
   },
   "ERRORS": {

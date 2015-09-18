@@ -6,8 +6,8 @@ define(["require", "exports"], function (require, exports) {
             this.Authentication = Authentication;
             this.WebStorageService = WebStorageService;
             var vm = this;
-            //vm.loginForm = {};
-            // Maybe move somewhere else ...
+            vm.loginForm = {};
+            // TODO: Maybe move it somewhere else ...
             this.Authentication.getInfo()
                 .then(function (response) {
                 if (response) {
@@ -15,9 +15,14 @@ define(["require", "exports"], function (require, exports) {
                 }
             });
         }
-        LoginCtrl.prototype.login = function () {
-            this.WebStorageService.set(JSON.stringify({ user: 'User1', token: 'token-1' }));
-            this.$state.go('main.home');
+        LoginCtrl.prototype.login = function (form) {
+            var self = this;
+            this.Authentication.login(form)
+                .then(function (response) {
+                var stringified = JSON.stringify(response);
+                self.WebStorageService.set(stringified);
+                self.$state.go('main.home');
+            });
         };
         LoginCtrl.$inject = ['$filter', '$state', 'Authentication', 'WebStorageService'];
         return LoginCtrl;

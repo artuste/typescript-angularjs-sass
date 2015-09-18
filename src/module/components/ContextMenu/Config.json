@@ -1,10 +1,5 @@
 [
   {
-    "label": "HEADER.CONTEXT_MENU.OPTIONS.CHANGE_PASSWORD",
-    "routeName": "main.changePassword",
-    "icon": "glyphicon-console"
-  },
-  {
     "label": "MODULES.LOGOUT.TITLE",
     "routeName": "loginTemplate.logout",
     "icon": "glyphicon-log-out"

@@ -10,9 +10,9 @@ module
             url: '/home',
             views: {
                 application: {
-                    templateUrl: 'src/module/home/view/home.html',
+                    templateUrl: 'src/module/home/Home.html',
                     controller: HomeCtrl,
-                    controllerAs: 'controller'
+                    controllerAs: 'vm'
                 }
             }
         });

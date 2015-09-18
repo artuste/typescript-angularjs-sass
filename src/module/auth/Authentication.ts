@@ -17,7 +17,7 @@ module
                 url: '/login',
                 views: {
                     application: {
-                        templateUrl: 'src/module/auth/view/login.html',
+                        templateUrl: 'src/module/auth/Login.html',
                         controller: LoginCtrl,
                         controllerAs: 'vm'
                     }

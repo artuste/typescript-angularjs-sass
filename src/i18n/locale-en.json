@@ -1,6 +1,6 @@
 {
   "HEADER": {
-    "TITLE": "BookShelf",
+    "TITLE": "Application",
     "MENU": "Menu",
     "SETTINGS_DROPDOWN": {
       "LABEL_NAME": "Languages",
@@ -13,9 +13,6 @@
     "CONTEXT_MENU": {
       "LABEL_NAME": "Settings",
       "OPTIONS": {
-        "PRODUCT": "Product",
-        "CHANGE_PASSWORD": "Change password",
-        "ADD_USER": "Add user"
       }
     }
   },
@@ -35,21 +32,6 @@
       "FORM": {
         "USERNAME": "Username",
         "PASSWORD": "Password"
-      }
-    },
-    "BOOKS": {
-      "TITLE": "Books",
-      "LIST": "Ebooks",
-      "PLAYER": "Vanilia Player"
-    },
-    "VOUCHER": {
-      "POPUP": {
-        "TITLE": "Redeem Voucher",
-        "DESC": "Please enter voucher to get access to content",
-        "PLACEHOLDER": "Enter voucher"
-      },
-      "MESSAGES": {
-        "UNLOCK": "Unlocked!"
       }
     }
   },

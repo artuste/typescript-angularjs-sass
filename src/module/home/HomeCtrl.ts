@@ -1,8 +1,7 @@
 export class HomeCtrl {
-
-    public title:string;
+    public desc:string;
 
     constructor() {
-        this.title = 'Home';
+        this.desc = 'This is description.';
     }
 }

@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-4">
                 <h3 class="title">
-                    <a class="custom-anchor" href="/books">
+                    <a class="custom-anchor" ui-sref="main.home">
                         <div class="top-logo"></div>
                         <span>{{ 'HEADER.TITLE' | translate }}</span>
                     </a>
@@ -12,14 +12,11 @@
             </div>
 
             <div class="cfa-top-content col-md-8">
-                <com-voucher></com-voucher>
-
                 <com-languages
                         config="config"
                         lang="lang">
                 </com-languages>
 
-                <!--Styles switcher-->
                 <com-style-switcher></com-style-switcher>
 
                 <com-context-menu></com-context-menu>
