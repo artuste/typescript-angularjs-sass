@@ -52,32 +52,40 @@ gulp serve:docs       # Generates and serves documentation
 ### Validate sources with specified rules defined in :
 * `tslint.json` for TypeScript
 * `.jshintrc` for JavaScript
-
+```
 gulp check              # check all
 gulp check:jshint       # checks gulp tasks and gulpfile (only not generated js files in this repo)
 gulp check:tslint       # checks TypeScript files from src/ and test/ directory
 gulp check:tslint:src   # checks TypeScript files from src/ directory
 gulp check:tslint:test  # checks TypeScript files from src/ directory
+```
 
 ### Remove compiled files
+```
 gulp clean      # clean all
 gulp clean:src  # removes *.map, *.js files from source directory 
 gulp clean:test # removes *.map, *.js files from test directory
+```
 
 ### Run TypeScript compiler
+```
 gulp compile      # compile all
 gulp compile:src  # compile *.ts files from source directory
 gulp compile:test # compile *.ts files from test directory
+```
 
 ### Build sources and documentation
+```
 gulp build      # build all
 gulp build:dist # creates self executable distribution file into dist directory
 gulp build:docs # generates documentation into docs directory
+```
 Run tests
-
+```
 gulp test       # all tests
 gulp test:unit  # run unit tests from test/unit directory
 gulp test:e2e   # run e2e tests from test/e2e directory
+```
 
 # License
 MIT
