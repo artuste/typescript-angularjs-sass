@@ -1,1 +1,1 @@
-# TypeScript with AnhularJS App
+# TypeScript with AngularJS App
