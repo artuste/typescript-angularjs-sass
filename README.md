@@ -3,12 +3,12 @@ This is an example application based on AngularJS written in TypeScript.
 
 # What is inside ?
 
-* AngularJS in TypeScript Application
+* TypeScript/AngularJS Application
 * Token authentication
 * SASS version of Bootstrap
 * Customizable general & custom Bootstra CSS styles
 * Switching styles
-* English, chinese and arabic translations (i18n)
+* i18n with English, chinese and arabic translations
 * RTL (right-to-left) layout
 
 # Technology Stack
