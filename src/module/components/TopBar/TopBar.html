@@ -1,0 +1,29 @@
+<nav class="navbar navbar-default"
+     ng-show="config.topBar.visibility">
+    <div class="container-header">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="title">
+                    <a class="custom-anchor" href="/books">
+                        <div class="top-logo"></div>
+                        <span>{{ 'HEADER.TITLE' | translate }}</span>
+                    </a>
+                </h3>
+            </div>
+
+            <div class="cfa-top-content col-md-8">
+                <com-voucher></com-voucher>
+
+                <com-languages
+                        config="config"
+                        lang="lang">
+                </com-languages>
+
+                <!--Styles switcher-->
+                <com-style-switcher></com-style-switcher>
+
+                <com-context-menu></com-context-menu>
+            </div>
+        </div>
+    </div>
+</nav>

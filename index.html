@@ -1,0 +1,19 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <link href="dist/css/application.css" rel="stylesheet" />
+</head>
+<body class="lang lang-{{language}}" ng-class="{ 'client-style' : clientStyleEnable }">
+
+<ui-view name="application"></ui-view>
+
+<script src="vendor/jspm_packages/system.js"></script>
+<script src="jspm.conf.js"></script>
+<script language="JavaScript">
+    System.import('./src/index');
+</script>
+
+</body>
+</html>

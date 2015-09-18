@@ -1,0 +1,15 @@
+<div class="container">
+    <com-main>
+        <!--<pre>{{userinfo|json}}</pre>-->
+        <com-user-bar data="userinfo"></com-user-bar>
+
+        <com-topbar
+                lang="language"
+                config="config">
+        </com-topbar>
+
+        <div class="row">
+            <div class="col-md-12" ui-view="application"></div>
+        </div>
+    </com-main>
+</div>

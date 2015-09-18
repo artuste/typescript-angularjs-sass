@@ -1,0 +1,29 @@
+@import "default-styles";
+
+.client-style {
+  @import "custom-styles";
+}
+
+.lang {
+  &.lang-ar {
+    @import "rtl/bootstrap-rtl";
+
+    & > * {
+      direction: rtl;
+    }
+    input {
+      float: left;
+    }
+    .cfa-top-content {
+      text-align: left;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .cfa-top-content {
+    .btn, .btn-group {
+      width: 100%;
+    }
+  }
+}

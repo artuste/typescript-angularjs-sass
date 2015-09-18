@@ -1,0 +1,73 @@
+{
+  "HEADER": {
+    "TITLE": "加入時間",
+    "MENU": "百六入時",
+    "SETTINGS_DROPDOWN": {
+      "LABEL_NAME": "幾點想法",
+      "LANGS": {
+        "EN": "EN",
+        "AR": "ول إلى",
+        "CH": "百六"
+      }
+    },
+    "CONTEXT_MENU": {
+      "LABEL_NAME": "幾點想法",
+      "OPTIONS": {
+        "CHANGE_PASSWORD": "入時六"
+      }
+    }
+  },
+  "BUTTONS": {
+    "SWITCH_STYLES_CLIENT": "入時六",
+    "SWITCH_STYLES_DEFAULT": "百六入時"
+  },
+  "MODULES": {
+    "HOME": {
+      "TITLE": "入時六"
+    },
+    "LOGIN": {
+      "TITLE": "百六",
+      "FORM": {
+        "USERNAME": "入時六",
+        "PASSWORD": "百六入時"
+      }
+    },
+    "LOGOUT": {
+      "TITLE": "幾點想"
+    },
+    "BOOKS": {
+      "TITLE": "幾點想法",
+      "LIST": "百六 ",
+      "PLAYER": "幾點想法"
+    },
+    "VOUCHER": {
+      "POPUP": {
+        "TITLE": "幾點想法",
+        "DESC": "百六百幾點想法 六百六百六",
+        "PLACEHOLDER": "點想法"
+      },
+      "MESSAGES": {
+        "UNLOCK": "百六百幾點想法 六百六百六"
+      }
+    }
+  },
+  "ERRORS": {
+    "401": "點想法",
+    "403": "百六百幾點想法",
+    "404": "百六百幾點想法",
+    "VALIDATION": {
+      "PASSWORD": {
+        "INVALID_PASSWORD": "點想法",
+        "VALIDATION_FAILED": "點想法"
+      }
+    }
+  },
+  "MESSAGES": {
+    "LOGGEDIN": "幾點想法幾點想法",
+    "LOGGEDOUT": "入時六"
+  },
+  "COMMON": {
+    "CANCEL": "入時六",
+    "UNLOCK": "幾點想法"
+  }
+}

@@ -1,0 +1,30 @@
+<div class="btn-group">
+    <button type="button" data-toggle="dropdown"
+            class="btn btn-default dropdown-toggle">
+        <i class="glyphicon glyphicon-wrench"></i>
+        {{ 'HEADER.CONTEXT_MENU.LABEL_NAME' | translate }}
+        <span class="caret"></span></button>
+
+    <ul class="dropdown-menu">
+        <li ng-repeat="item in vm.config.list">
+            <!--Temporary-->
+            <!--Config-->
+            <!--{-->
+            <!--"label": "HEADER.CONTEXT_MENU.OPTIONS.CHANGE_PASSWORD",-->
+            <!--"routeName": "main.changePassword",-->
+            <!--"redirectLink": "http://esa.ydp.local:8080/openam/XUI/#profile/change_security_data/",-->
+            <!--"redirectLinkTarget": "_blank",-->
+            <!--"icon": "glyphicon-console"-->
+            <!--}-->
+            <!--<a ng-if="!!item.redirectLink" href="{{item.redirectLink}}" target="{{item.redirectLinkTarget}}">-->
+            <!--<i class="glyphicon {{ item.icon }}"></i>-->
+            <!--{{ item.label | translate }}-->
+            <!--</a>-->
+
+            <a ng-if="!item.redirectLink" ui-sref="{{ item.routeName }}">
+                <i class="glyphicon {{ item.icon }}"></i>
+                {{ item.label | translate }}
+            </a>
+        </li>
+    </ul>
+</div>

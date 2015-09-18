@@ -1,0 +1,92 @@
+{
+  "name": "typescript-angularjs-sass",
+  "description": "This is TypeScript/AngularJS SPA with Bootstrap SASS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artuste/typescript-angularjs-sass.git"
+  },
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "connect-modrewrite": "^0.8.2",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-debug": "^2.1.0",
+    "gulp-angular-templatecache": "~1.4.2",
+    "gulp-artifactory-upload-f": "^1.1.5",
+    "gulp-html-replace": "^1.5.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-protractor": "^1.0.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-tslint": "^3.1.2",
+    "gulp-typedoc": "^1.2.1",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.4",
+    "gulp-webserver": "^0.9.1",
+    "gulp-zip": "^3.0.2",
+    "http-proxy": "^1.11.2",
+    "jshint-stylish": "^2.0.1",
+    "jspm": "^0.16.2",
+    "karma": "^0.13.7",
+    "karma-chai-sinon": "^0.1.5",
+    "karma-coverage": "^0.4.2",
+    "karma-jspm": "2.0.1-beta.1",
+    "karma-junit-reporter": "~0.3.3",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.17",
+    "phantomjs-polyfill": "0.0.1",
+    "portfinder": "^0.4.0",
+    "protractor": "^2.1.0",
+    "run-sequence": "^1.1.2",
+    "serve-static": "~1.7.1",
+    "sinon": "^1.16.1",
+    "sinon-chai": "^2.8.0",
+    "sw-precache": "^2.0.0",
+    "tsd": "^0.6.4",
+    "tslint": "^2.4.2",
+    "typescript": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "postinstall": "jspm install && tsd reinstall -s -o"
+  },
+  "jspm": {
+    "directories": {
+      "packages": "vendor/jspm_packages"
+    },
+    "configFile": "jspm.conf.js",
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.3",
+      "angular-animate": "github:angular/bower-angular-animate@^1.4.3",
+      "angular-cookies": "github:angular/bower-angular-cookies@^1.4.3",
+      "angular-sanitize": "github:angular/bower-angular-sanitize@^1.4.3",
+      "angular-toastr": "github:Foxandxss/angular-toastr@^1.4.1",
+      "angular-translate": "github:angular-translate/bower-angular-translate@^2.7.2",
+      "angular-translate-loader-static-files": "github:angular-translate/bower-angular-translate-loader-static-files@^2.7.2",
+      "angular-translate-loader-url": "github:angular-translate/bower-angular-translate-loader-url@^2.7.2",
+      "angular-ui-bootstrap": "github:angular-ui/bootstrap@0.13.4",
+      "angular-ui-router": "github:angular-ui/ui-router@^0.2.15",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "clean-css": "npm:clean-css@^3.3.9",
+      "css": "github:systemjs/plugin-css@^0.1.13",
+      "lodash": "npm:lodash@^3.10.1",
+      "rockabox/ng-lodash": "github:rockabox/ng-lodash@^0.2.3",
+      "ts": "github:frankwallis/plugin-typescript@^2.0.4"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.6.4",
+      "babel-runtime": "npm:babel-runtime@^5.6.4",
+      "bootstrap-sass": "github:twbs/bootstrap-sass@^3.3.5",
+      "core-js": "npm:core-js@^0.9.17",
+      "typescript": "npm:typescript@1.5.3"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "HEADER": {
+    "TITLE": "تسجيل الدخول",
+    "MENU": "داري",
+    "SETTINGS_DROPDOWN": {
+      "LABEL_NAME": "ول إلى",
+      "LANGS": {
+        "EN": "EN",
+        "AR": "ول إلى",
+        "CH": "百六"
+      }
+    },
+    "CONTEXT_MENU": {
+      "LABEL_NAME": "إلالدخولى",
+      "OPTIONS": {
+        "CHANGE_PASSWORD": "دارين"
+      }
+    }
+  },
+  "BUTTONS": {
+    "SWITCH_STYLES_CLIENT": "دارين",
+    "SWITCH_STYLES_DEFAULT": "إلى ري"
+  },
+  "MODULES": {
+    "HOME": {
+      "TITLE": "دارين"
+    },
+    "LOGIN": {
+      "TITLE": "رينإلى ",
+      "FORM": {
+        "USERNAME": "دارين",
+        "PASSWORD": "الدخول"
+      }
+    },
+    "LOGOUT": {
+      "TITLE": "إلى"
+    },
+    "BOOKS": {
+      "TITLE": "رين",
+      "LIST": "رين",
+      "PLAYER": "رين"
+    },
+    "VOUCHER": {
+      "POPUP": {
+        "TITLE": "رين",
+        "DESC": "تسجيل الدخول",
+        "PLACEHOLDER": "الدخول"
+      },
+      "MESSAGES": {
+        "UNLOCK": "تسجيل الدخول"
+      }
+    }
+  },
+  "ERRORS": {
+    "401": "الدخول",
+    "403": "الدخول",
+    "404": "الدخول",
+    "VALIDATION": {
+      "PASSWORD": {
+        "INVALID_PASSWORD": "الدخول",
+        "VALIDATION_FAILED": "الدخول"
+      }
+    }
+  },
+  "MESSAGES": {
+    "LOGGEDIN": "إلى",
+    "LOGGEDOUT": "تسجيل الدخول"
+  },
+  "COMMON": {
+    "CANCEL": "الدخول",
+    "UNLOCK": "رين"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "vendor/typings",
+  "bundle": "vendor/typings/tsd.d.ts",
+  "installed": {
+    "chai/chai.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "sinon/sinon.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "sinon-chai/sinon-chai.d.ts": {
+      "commit": "c50b111ded0a3a18b87b5abffea3150d6aca94da"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "983126e131a2b81739053d60e4bbdbb46d6577b7"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "3d2916191781fe400176a030c03722ac4b87f1c1"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "3d2916191781fe400176a030c03722ac4b87f1c1"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "3d2916191781fe400176a030c03722ac4b87f1c1"
+    },
+    "toastr/toastr.d.ts": {
+      "commit": "b45569f35d5f27716d21cc2a639c7d8ccb9a0164"
+    },
+    "angularjs/angular-animate.d.ts": {
+      "commit": "284c2b8828f06bdde1f949a22ad174f5221d57f9"
+    },
+    "angularjs/angular-cookies.d.ts": {
+      "commit": "284c2b8828f06bdde1f949a22ad174f5221d57f9"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "284c2b8828f06bdde1f949a22ad174f5221d57f9"
+    },
+    "angularjs/angular-sanitize.d.ts": {
+      "commit": "284c2b8828f06bdde1f949a22ad174f5221d57f9"
+    },
+    "angular-translate/angular-translate.d.ts": {
+      "commit": "284c2b8828f06bdde1f949a22ad174f5221d57f9"
+    }
+  }
+}
