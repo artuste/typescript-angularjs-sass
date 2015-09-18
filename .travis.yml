@@ -1,5 +1,24 @@
-npm -v
-npm install
-./node_modules/.bin/jspm config endpoints.github.auth JoDDiz9yYoTiqxwqtcy8
-npm install
-gulp
+language: node_js
+
+node_js:
+- '0.12'
+
+before_install:
+- npm install --quiet -g gulp jspm typescript tsd
+- jspm config registries.github.remote https://github.jspm.io
+- jspm config registries.github.auth JoDDiz9yYoTiqxwqtcy8
+- jspm config registries.github.maxRepoSize 0
+- jspm config registries.github.handler jspm-github
+
+
+script:
+- gulp compile
+- gulp test:unit
+
+cache:
+  directories:
+  - ./node_modules
+  - ./vendor
+  - $HOME/.nvm
+
+sudo: false
