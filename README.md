@@ -4,7 +4,8 @@ This is an example application based on AngularJS written in TypeScript.
 # What is inside ?
 ## General
 * AngularJS code written in TypeScript
-* CSS styles compiled from SASS files `/src/public/branding/sass` (custom and Bootstrap's variables)
+* CSS styles compiled from SASS files `/src/public/branding/sass` 
+* Customizable Bootstrap's variables
 * Unit and E2E tests
 * Growl messages (toastr)
 * A lot of customizations based on JSON config files
