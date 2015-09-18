@@ -40,6 +40,7 @@ This is an example application based on AngularJS written in TypeScript.
 # What do you need ?
 * nodejs 0.12.+
 * npm 2.13.+
+* ruby ~2.0.0
 
 # Installation
 ```
