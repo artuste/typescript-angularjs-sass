@@ -10,17 +10,17 @@
   "devDependencies": {
     "chai": "^3.2.0",
     "connect-modrewrite": "^0.8.2",
-    "del": "^1.2.0",
+    "del": "^2.0.2",
     "gulp": "^3.9.0",
     "gulp-debug": "^2.1.0",
-    "gulp-angular-templatecache": "~1.4.2",
+    "gulp-angular-templatecache": "~1.7.0",
     "gulp-artifactory-upload-f": "^1.1.5",
     "gulp-html-replace": "^1.5.1",
     "gulp-jshint": "^1.11.2",
     "gulp-load-plugins": "^0.10.0",
     "gulp-protractor": "^1.0.0",
     "gulp-replace": "^0.5.4",
-    "gulp-ruby-sass": "^0.7.1",
+    "gulp-ruby-sass": "^2.0.3",
     "gulp-tslint": "^3.1.2",
     "gulp-typedoc": "^1.2.1",
     "gulp-util": "^3.0.6",
@@ -32,8 +32,8 @@
     "jspm": "^0.16.2",
     "karma": "^0.13.7",
     "karma-chai-sinon": "^0.1.5",
-    "karma-coverage": "^0.4.2",
-    "karma-jspm": "2.0.1-beta.1",
+    "karma-coverage": "^0.5.2",
+    "karma-jspm": "2.0.1",
     "karma-junit-reporter": "~0.3.3",
     "karma-mocha": "^0.2.0",
     "karma-phantomjs-launcher": "^0.2.1",
@@ -43,7 +43,7 @@
     "portfinder": "^0.4.0",
     "protractor": "^2.1.0",
     "run-sequence": "^1.1.2",
-    "serve-static": "~1.7.1",
+    "serve-static": "~1.10.0",
     "sinon": "^1.16.1",
     "sinon-chai": "^2.8.0",
     "sw-precache": "^2.0.0",
@@ -54,8 +54,7 @@
   "engines": {
     "node": ">=0.12.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "jspm": {
     "directories": {
       "packages": "vendor/jspm_packages"
@@ -85,9 +84,6 @@
       "bootstrap-sass": "github:twbs/bootstrap-sass@^3.3.5",
       "core-js": "npm:core-js@^0.9.17",
       "typescript": "npm:typescript@1.5.3"
-    },
-    "resolutions": {
-      "angular": "1.4.3"
     }
   }
 }
