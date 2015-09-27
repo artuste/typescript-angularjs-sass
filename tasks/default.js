@@ -2,7 +2,7 @@
 module.exports = function() {
     return function() {
         var runSequence = require('run-sequence');
-        return runSequence('check:jshint', 'compile', 'css', 'test:unit', function() {
+        return runSequence('compile', function() {
             console.log('Done!');
         });
     };
