@@ -85,6 +85,9 @@
       "bootstrap-sass": "github:twbs/bootstrap-sass@^3.3.5",
       "core-js": "npm:core-js@^0.9.17",
       "typescript": "npm:typescript@1.5.3"
+    },
+    "resolutions": {
+      "angular": "1.4.3"
     }
   }
 }
