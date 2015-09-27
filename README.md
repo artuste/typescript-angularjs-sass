@@ -56,11 +56,11 @@ npm install
 # Gulp tasks
 
 ## Serve application or documentation to browser
-
+```
 gulp serve            # Serves application, watch *.ts, recompile, reload
 gulp serve --watch-js # Serves application, watch *.js, recompile, reload (useful with TypeScript IDE compilation)
 gulp serve:docs       # Generates and serves documentation
-
+```
 ### Validate sources with specified rules defined in :
 * `tslint.json` for TypeScript
 * `.jshintrc` for JavaScript
