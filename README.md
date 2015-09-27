@@ -1,4 +1,6 @@
 # TypeScript with AngularJS App
+<img src="https://travis-ci.org/artuste/typescript-angularjs-sass.svg?branch=master" />
+
 This is an example application based on AngularJS written in TypeScript.
 
 # What is inside ?
