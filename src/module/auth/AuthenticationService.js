@@ -12,6 +12,8 @@ define(["require", "exports"], function (require, exports) {
                 return deferred.promise;
             };
             this.login = function (form) {
+                // This is only for test purpose
+                // It should be use $http service
                 var mockResponse = {
                     user: form.username,
                     token: 'Token-' + Math.floor(Math.random() * 1000000)

@@ -8,7 +8,7 @@ System.config({
   paths: {
     "github:*": "vendor/jspm_packages/github/*",
     "npm:*": "vendor/jspm_packages/npm/*",
-    "app": "src"
+    "app": "src/index"
   },
 
   map: {

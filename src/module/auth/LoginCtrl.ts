@@ -11,7 +11,6 @@ export class LoginCtrl {
 
         vm.loginForm = {};
 
-        // TODO: Maybe move it somewhere else ...
         this.Authentication.getInfo()
             .then(function (response) {
             if (response) {

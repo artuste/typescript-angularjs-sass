@@ -15,11 +15,11 @@ module.exports = function(gulp, config) {
             .then(function() {
                 var moduleName = 'app';
                 var buildConfig = {
-                    sfxFormat: 'amd',
+                    format: 'amd',
                     minify: true,
                     sourceMaps: true
                 };
-                return builder.buildSFX(moduleName, outFile, buildConfig);
+                return builder.buildStatic(moduleName, outFile, buildConfig);
             })
             .then(function() {
                 var mapFile = outFile + '.map';
@@ -35,4 +35,3 @@ module.exports = function(gulp, config) {
             });
     };
 };
-

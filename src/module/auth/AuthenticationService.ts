@@ -16,10 +16,14 @@ export class AuthenticationService {
     };
 
     login = (form) => {
+        // This is only for test purpose
+        // It should be use $http service
+
         var mockResponse = {
             user: form.username,
             token: 'Token-' + Math.floor(Math.random()*1000000)
         };
+
         var deferred = this.$q.defer();
 
         deferred.resolve(mockResponse);
