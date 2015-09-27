@@ -55,8 +55,6 @@
     "node": ">=0.12.0"
   },
   "scripts": {
-    "test": "gulp test",
-    "postinstall": "jspm install && tsd reinstall -s -o"
   },
   "jspm": {
     "directories": {
