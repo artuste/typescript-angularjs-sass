@@ -1,5 +1,6 @@
 # TypeScript with AngularJS App
-<img src="https://travis-ci.org/artuste/typescript-angularjs-sass.svg?branch=master" />
+[![Build Status](https://travis-ci.org/artuste/typescript-angularjs-sass.svg?branch=master)](https://travis-ci.org/artuste/typescript-angularjs-sass)
+[![devDependency Status](https://david-dm.org/artuste/typescript-angularjs-sass/dev-status.svg)](https://david-dm.org/artuste/typescript-angularjs-sass#info=devDependencies)
 
 This is an example application based on AngularJS written in TypeScript.
 
